@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Retreat Andalucía — Trouvez, visitez, installez-vous</title>
+  <meta name="description" content="Accompagnement complet pour louer ou acheter en Andalousie : recherche de biens, visites, négociation, dossiers administratifs. Multilingue FR/EN/ES/DE." />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/index.css" />
+  <link rel="icon" href="images/logo.png" />
+</head>
+<body>
+  <header class="header" data-elevate>
+    <div class="container navwrap">
+      <a href="#" class="brand">
+        <img src="images/logo.png" alt="Retreat Andalucía" class="brand__logo" />
+        <span class="brand__text">RETREAT<br><small>ANDALUCÍA</small></span>
+      </a>
+
+      <nav class="nav" aria-label="Primary">
+        <button class="nav__toggle" aria-expanded="false" aria-controls="navMenu" id="navToggle">
+          <span class="sr-only">Menu</span>
+          ☰
+        </button>
+        <ul class="nav__list" id="navMenu">
+          <li><a href="#services" data-i18n="nav.services"></a></li>
+          <li><a href="#about" data-i18n="nav.about"></a></li>
+          <li><a href="#process" data-i18n="nav.process"></a></li>
+          <li><a href="#destinations" data-i18n="nav.destinations"></a></li>
+          <li><a href="#testimonials" data-i18n="nav.testimonials"></a></li>
+          <li><a href="#faq" data-i18n="nav.faq"></a></li>
+          <li><a href="#contact" class="btn btn--primary" data-i18n="nav.contact"></a></li>
+        </ul>
+      </nav>
+
+      <div class="lang">
+        <button class="lang__btn" data-lang="fr">FR</button>
+        <button class="lang__btn" data-lang="en">EN</button>
+        <button class="lang__btn" data-lang="es">ES</button>
+        <button class="lang__btn" data-lang="de">DE</button>
+      </div>
+    </div>
+  </header>
+
+  
+  <section class="hero">
+    <div class="container hero__grid">
+      <div class="hero__copy">
+        <h1 data-i18n="hero.title"></h1>
+        <p class="hero__subtitle" data-i18n="hero.subtitle"></p>
+        <div class="hero__cta">
+          <a href="#contact" class="btn btn--primary" data-i18n="hero.cta1"></a>
+          <a href="#services" class="btn btn--ghost" data-i18n="hero.cta2"></a>
+        </div>
+        <ul class="trust">
+          <li>✓ <span data-i18n="hero.badge1"></span></li>
+          <li>✓ <span data-i18n="hero.badge2"></span></li>
+          <li>✓ <span data-i18n="hero.badge3"></span></li>
+        </ul>
+      </div>
+      <div class="hero__visual">
+        <div class="card hero__card">
+          <img src="images/logo.png" alt="" />
+          <div class="card__badge" data-i18n="hero.badge"></div>
+        </div>
+      </div>
+    </div>
+    <a href="#services" class="scrollhint" aria-label="Scroll">▼</a>
+  </section>
+
+  
+  <section class="section" id="services">
+    <div class="container">
+      <h2 class="section__title" data-i18n="services.title"></h2>
+      <p class="section__lead" data-i18n="services.lead"></p>
+
+      <div class="grid grid--cards">
+        <article class="card card--service" data-animate>
+          <div class="card__icon">🏡</div>
+          <h3 data-i18n="services.s1.title"></h3>
+          <p data-i18n="services.s1.text"></p>
+        </article>
+        <article class="card card--service" data-animate>
+          <div class="card__icon">🎥</div>
+          <h3 data-i18n="services.s2.title"></h3>
+          <p data-i18n="services.s2.text"></p>
+        </article>
+        <article class="card card--service" data-animate>
+          <div class="card__icon">🤝</div>
+          <h3 data-i18n="services.s3.title"></h3>
+          <p data-i18n="services.s3.text"></p>
+        </article>
+        <article class="card card--service" data-animate>
+          <div class="card__icon">📄</div>
+          <h3 data-i18n="services.s4.title"></h3>
+          <p data-i18n="services.s4.text"></p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+ 
+  <section class="section section--alt" id="about">
+    <div class="container about__grid">
+      <div class="about__media">
+        <div class="card about__card">
+          <img src="images/test.jpg" alt="Antuanett — Retreat Andalucía" />
+          <div class="about__badge" data-i18n="about.badge"></div>
+        </div>
+      </div>
+      <div class="about__text">
+        <h2 class="section__title" data-i18n="about.title"></h2>
+        <p class="section__lead" data-i18n="about.lead"></p>
+
+        <ul class="about__stats">
+          <li>
+            <span class="stat__big" data-i18n="about.stat1.value"></span>
+            <span data-i18n="about.stat1.label"></span>
+          </li>
+          <li>
+            <span class="stat__big" data-i18n="about.stat2.value"></span>
+            <span data-i18n="about.stat2.label"></span>
+          </li>
+          <li>
+            <span class="stat__big" data-i18n="about.stat3.value"></span>
+            <span data-i18n="about.stat3.label"></span>
+          </li>
+        </ul>
+
+        <p data-i18n="about.p1"></p>
+        <p data-i18n="about.p2"></p>
+
+        <div class="about__actions">
+          <a href="#contact" class="btn btn--primary" data-i18n="about.cta1"></a>
+          <a href="#faq" class="btn btn--ghost" data-i18n="about.cta2"></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+ 
+  <section class="section" id="process">
+    <div class="container">
+      <h2 class="section__title" data-i18n="process.title"></h2>
+      <ol class="timeline">
+        <li data-animate>
+          <span>1</span>
+          <h3 data-i18n="process.p1.title"></h3>
+          <p data-i18n="process.p1.text"></p>
+        </li>
+        <li data-animate>
+          <span>2</span>
+          <h3 data-i18n="process.p2.title"></h3>
+          <p data-i18n="process.p2.text"></p>
+        </li>
+        <li data-animate>
+          <span>3</span>
+          <h3 data-i18n="process.p3.title"></h3>
+          <p data-i18n="process.p3.text"></p>
+        </li>
+        <li data-animate>
+          <span>4</span>
+          <h3 data-i18n="process.p4.title"></h3>
+          <p data-i18n="process.p4.text"></p>
+        </li>
+        <li data-animate>
+          <span>5</span>
+          <h3 data-i18n="process.p5.title"></h3>
+          <p data-i18n="process.p5.text"></p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+
+  <section class="section" id="destinations">
+    <div class="container">
+      <h2 class="section__title" data-i18n="dest.title"></h2>
+      <div class="grid grid--cards">
+        <article class="card card--dest" data-animate>
+          <img src="images/sevilla.webp" alt="Sevilla" />
+          <div class="card__body">
+            <h3>Sevilla</h3>
+            <p data-i18n="dest.seville"></p>
+          </div>
+        </article>
+        <article class="card card--dest" data-animate>
+          <img src="images/cadiz.webp" alt="Cadiz" />
+          <div class="card__body">
+            <h3>Cadiz</h3>
+            <p data-i18n="dest.malaga"></p>
+          </div>
+        </article>
+        <article class="card card--dest" data-animate>
+          <img src="images/huelva.jpg" alt="Huelva" />
+          <div class="card__body">
+            <h3>Huelva</h3>
+            <p data-i18n="dest.granada"></p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="section section--alt" id="testimonials">
+    <div class="container">
+      <h2 class="section__title" data-i18n="testi.title"></h2>
+      <div class="carousel" data-carousel>
+        <button class="carousel__btn prev" aria-label="Previous">‹</button>
+        <div class="carousel__track">
+          <blockquote class="testimonial">
+            <p data-i18n="testi.t1.text"></p>
+            <footer>— <span data-i18n="testi.t1.author"></span></footer>
+          </blockquote>
+          <blockquote class="testimonial">
+            <p data-i18n="testi.t2.text"></p>
+            <footer>— <span data-i18n="testi.t2.author"></span></footer>
+          </blockquote>
+          <blockquote class="testimonial">
+            <p data-i18n="testi.t3.text"></p>
+            <footer>— <span data-i18n="testi.t3.author"></span></footer>
+          </blockquote>
+        </div>
+        <button class="carousel__btn next" aria-label="Next">›</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section" id="faq">
+    <div class="container">
+      <h2 class="section__title" data-i18n="faq.title"></h2>
+      <div class="accordion">
+        <details>
+          <summary data-i18n="faq.q1.title"></summary>
+          <p data-i18n="faq.q1.text"></p>
+        </details>
+        <details>
+          <summary data-i18n="faq.q2.title"></summary>
+          <p data-i18n="faq.q2.text"></p>
+        </details>
+        <details>
+          <summary data-i18n="faq.q3.title"></summary>
+          <p data-i18n="faq.q3.text"></p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  
+  <section class="section section--alt" id="contact">
+    <div class="container contact__grid">
+      <div>
+        <h2 class="section__title" data-i18n="contact.title"></h2>
+        <p class="section__lead" data-i18n="contact.lead"></p>
+
+        <ul class="contact__list">
+          <li>✉︎ <a href="mailto:hello@retreatandalucia.com">hello@retreatandalucia.com</a></li>
+          <li>☎︎ <a href="tel:+34600000000">+34 600 00 00 00</a></li>
+          <li>📍 Andalucía, España</li>
+        </ul>
+
+        <div class="badges">
+          <span class="badge" data-i18n="contact.badge1"></span>
+          <span class="badge" data-i18n="contact.badge2"></span>
+          <span class="badge" data-i18n="contact.badge3"></span>
+        </div>
+      </div>
+
+      <form class="form" id="contactForm" novalidate>
+        <div class="form__row">
+          <label for="name" data-i18n="form.name"></label>
+          <input id="name" name="name" required />
+          <small class="error" data-i18n="form.errRequired"></small>
+        </div>
+        <div class="form__row">
+          <label for="email" data-i18n="form.email"></label>
+          <input id="email" name="email" type="email" required />
+          <small class="error" data-i18n="form.errEmail"></small>
+        </div>
+        <div class="form__row">
+          <label for="budget" data-i18n="form.budget"></label>
+          <select id="budget" name="budget">
+            <option value="rent" data-i18n="form.budgetRent"></option>
+            <option value="buy" data-i18n="form.budgetBuy"></option>
+          </select>
+        </div>
+        <div class="form__row">
+          <label for="message" data-i18n="form.message"></label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+          <small class="error" data-i18n="form.errRequired"></small>
+        </div>
+        <button class="btn btn--primary btn--full" type="submit" data-i18n="form.send"></button>
+        <p class="form__ok" id="formOk" hidden data-i18n="form.ok"></p>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div class="footer__brand">
+        <img src="images/logo.png" alt="" />
+        <p>&copy; <span id="year"></span> Retreat Andalucía.</p>
+      </div>
+      <ul class="footer__nav">
+        <li><a href="#services" data-i18n="nav.services"></a></li>
+        <li><a href="#about" data-i18n="nav.about"></a></li>
+        <li><a href="#process" data-i18n="nav.process"></a></li>
+        <li><a href="#destinations" data-i18n="nav.destinations"></a></li>
+        <li><a href="#contact" data-i18n="nav.contact"></a></li>
+      </ul>
+      <div class="footer__legal">
+        <a href="#" data-i18n="footer.privacy"></a>
+        <a href="#" data-i18n="footer.terms"></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/index.js" defer></script>
+</body>
+</html>
