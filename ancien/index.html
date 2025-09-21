@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="fr">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Retreat Andalucía — Compra o alquiler sin estrés</title>
-  <meta name="description" content="Acompañamiento completo para alquilar o comprar en Andalucía: búsqueda, visitas en vídeo, negociación y trámites. Multilingüe FR/EN/ES/DE." />
+  <title>Retreat Andalucía — Trouvez, visitez, installez-vous</title>
+  <meta name="description" content="Accompagnement complet pour louer ou acheter en Andalousie : recherche de biens, visites, négociation, dossiers administratifs. Multilingue FR/EN/ES/DE." />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/index.css" />
@@ -28,21 +28,22 @@
           <li><a href="#about" data-i18n="nav.about"></a></li>
           <li><a href="#process" data-i18n="nav.process"></a></li>
           <li><a href="#destinations" data-i18n="nav.destinations"></a></li>
-          <li><a href="#why" data-i18n="nav.why"></a></li>
+          <li><a href="#testimonials" data-i18n="nav.testimonials"></a></li>
           <li><a href="#faq" data-i18n="nav.faq"></a></li>
           <li><a href="#contact" class="btn btn--primary" data-i18n="nav.contact"></a></li>
         </ul>
       </nav>
 
       <div class="lang">
-        <button class="lang__btn" data-lang="es">ES</button>
         <button class="lang__btn" data-lang="fr">FR</button>
         <button class="lang__btn" data-lang="en">EN</button>
+        <button class="lang__btn" data-lang="es">ES</button>
         <button class="lang__btn" data-lang="de">DE</button>
       </div>
     </div>
   </header>
 
+  
   <section class="hero">
     <div class="container hero__grid">
       <div class="hero__copy">
@@ -68,6 +69,7 @@
     <a href="#services" class="scrollhint" aria-label="Scroll">▼</a>
   </section>
 
+  
   <section class="section" id="services">
     <div class="container">
       <h2 class="section__title" data-i18n="services.title"></h2>
@@ -76,51 +78,62 @@
       <div class="grid grid--cards">
         <article class="card card--service" data-animate>
           <div class="card__icon">🏡</div>
-          <h3 data-i18n="services.pre.title"></h3>
-          <p data-i18n="services.pre.text"></p>
+          <h3 data-i18n="services.s1.title"></h3>
+          <p data-i18n="services.s1.text"></p>
+        </article>
+        <article class="card card--service" data-animate>
+          <div class="card__icon">🎥</div>
+          <h3 data-i18n="services.s2.title"></h3>
+          <p data-i18n="services.s2.text"></p>
         </article>
         <article class="card card--service" data-animate>
           <div class="card__icon">🤝</div>
-          <h3 data-i18n="services.proc.title"></h3>
-          <p data-i18n="services.proc.text"></p>
+          <h3 data-i18n="services.s3.title"></h3>
+          <p data-i18n="services.s3.text"></p>
         </article>
         <article class="card card--service" data-animate>
-          <div class="card__icon">🛋️</div>
-          <h3 data-i18n="services.post.title"></h3>
-          <p data-i18n="services.post.text"></p>
+          <div class="card__icon">📄</div>
+          <h3 data-i18n="services.s4.title"></h3>
+          <p data-i18n="services.s4.text"></p>
         </article>
       </div>
     </div>
   </section>
 
+ 
   <section class="section section--alt" id="about">
-    <div class="container">
-      <h2 class="section__title" data-i18n="about.title"></h2>
-      <p class="section__lead" data-i18n="about.lead"></p>
-
-      <div class="about__grid" data-animate>
-        <div class="about__media">
-          <div class="card about__card">
-            <img src="images/monika.jpg" alt="Monika Dittmar — Retreat Andalucía" />
-            <div class="about__badge">Monika Dittmar</div>
-          </div>
-        </div>
-        <div class="about__text">
-          <h3 data-i18n="about.m1.name"></h3>
-          <p data-i18n="about.m1.text"></p>
+    <div class="container about__grid">
+      <div class="about__media">
+        <div class="card about__card">
+          <img src="images/test.jpg" alt="Antuanett — Retreat Andalucía" />
+          <div class="about__badge" data-i18n="about.badge"></div>
         </div>
       </div>
+      <div class="about__text">
+        <h2 class="section__title" data-i18n="about.title"></h2>
+        <p class="section__lead" data-i18n="about.lead"></p>
 
-      <div class="about__grid" data-animate>
-        <div class="about__media">
-          <div class="card about__card">
-            <img src="images/test.jpg" alt="Antuanett Garibeh — Retreat Andalucía" />
-            <div class="about__badge">Antuanett Garibeh</div>
-          </div>
-        </div>
-        <div class="about__text">
-          <h3 data-i18n="about.m2.name"></h3>
-          <p data-i18n="about.m2.text"></p>
+        <ul class="about__stats">
+          <li>
+            <span class="stat__big" data-i18n="about.stat1.value"></span>
+            <span data-i18n="about.stat1.label"></span>
+          </li>
+          <li>
+            <span class="stat__big" data-i18n="about.stat2.value"></span>
+            <span data-i18n="about.stat2.label"></span>
+          </li>
+          <li>
+            <span class="stat__big" data-i18n="about.stat3.value"></span>
+            <span data-i18n="about.stat3.label"></span>
+          </li>
+        </ul>
+
+        <p data-i18n="about.p1"></p>
+        <p data-i18n="about.p2"></p>
+
+        <div class="about__actions">
+          <a href="#contact" class="btn btn--primary" data-i18n="about.cta1"></a>
+          <a href="#faq" class="btn btn--ghost" data-i18n="about.cta2"></a>
         </div>
       </div>
     </div>
@@ -157,9 +170,6 @@
           <p data-i18n="process.p5.text"></p>
         </li>
       </ol>
-      <div class="process__cta">
-        <a href="#contact" class="btn btn--primary" data-i18n="process.cta"></a>
-      </div>
     </div>
   </section>
 
@@ -168,107 +178,57 @@
     <div class="container">
       <h2 class="section__title" data-i18n="dest.title"></h2>
       <div class="grid grid--cards">
-        <article class="card card--dest" data-animate data-dest="seville">
+        <article class="card card--dest" data-animate>
           <img src="images/sevilla.webp" alt="Sevilla" />
           <div class="card__body">
             <h3>Sevilla</h3>
-            <p data-i18n="dest.sevilleShort"></p>
-          </div>
-          <div class="dest__overlay" aria-hidden="true">
-            <div class="dest__content">
-              <h4>Sevilla</h4>
-              <p data-i18n="dest.seville"></p>
-            </div>
+            <p data-i18n="dest.seville"></p>
           </div>
         </article>
-        <article class="card card--dest" data-animate data-dest="cadiz">
-          <img src="images/cadiz.webp" alt="Cádiz" />
+        <article class="card card--dest" data-animate>
+          <img src="images/cadiz.webp" alt="Cadiz" />
           <div class="card__body">
-            <h3>Cádiz</h3>
-            <p data-i18n="dest.cadizShort"></p>
-          </div>
-          <div class="dest__overlay" aria-hidden="true">
-            <div class="dest__content">
-              <h4>Cádiz</h4>
-              <p data-i18n="dest.cadiz"></p>
-              <ul class="dest__list">
-                <li data-i18n="dest.cadizSnl"></li>
-                <li data-i18n="dest.cadizJrz"></li>
-              </ul>
-            </div>
+            <h3>Cadiz</h3>
+            <p data-i18n="dest.malaga"></p>
           </div>
         </article>
-        <article class="card card--dest" data-animate data-dest="huelva">
+        <article class="card card--dest" data-animate>
           <img src="images/huelva.jpg" alt="Huelva" />
           <div class="card__body">
             <h3>Huelva</h3>
-            <p data-i18n="dest.huelvaShort"></p>
-          </div>
-          <div class="dest__overlay" aria-hidden="true">
-            <div class="dest__content">
-              <h4>Huelva</h4>
-              <p data-i18n="dest.huelva"></p>
-            </div>
+            <p data-i18n="dest.granada"></p>
           </div>
         </article>
       </div>
     </div>
   </section>
 
-<section class="section section--alt" id="testimonials">
-  <div class="container">
-    <h2 class="section__title" data-i18n="testi.title"></h2>
-    <div class="carousel" data-carousel>
-      <button class="carousel__btn prev" aria-label="Anterior">‹</button>
-      <div class="carousel__track">
-        <blockquote class="testimonial">
-          <p data-i18n="testi.t1.text"></p>
-          <footer>— <span data-i18n="testi.t1.author"></span></footer>
-        </blockquote>
-        <blockquote class="testimonial">
-          <p data-i18n="testi.t2.text"></p>
-          <footer>— <span data-i18n="testi.t2.author"></span></footer>
-        </blockquote>
-        <blockquote class="testimonial">
-          <p data-i18n="testi.t3.text"></p>
-          <footer>— <span data-i18n="testi.t3.author"></span></footer>
-        </blockquote>
-      </div>
-      <button class="carousel__btn next" aria-label="Siguiente">›</button>
-    </div>
-  </div>
-</section>
 
-
-
-  <section class="section section--alt" id="why">
+  <section class="section section--alt" id="testimonials">
     <div class="container">
-      <h2 class="section__title" data-i18n="why.title"></h2>
-
-      <h3 class="section__subtitle" data-i18n="why.statsTitle"></h3>
-      <ul class="about__stats" style="margin-bottom:16px">
-        <li><span class="stat__big" data-i18n="why.s1"></span></li>
-        <li><span class="stat__big" data-i18n="why.s2"></span></li>
-        <li><span class="stat__big" data-i18n="why.s3"></span></li>
-        <li><span class="stat__big" data-i18n="why.s4"></span></li>
-        <li><span class="stat__big" data-i18n="why.s5"></span></li>
-      </ul>
-      <p class="section__lead" data-i18n="why.source"></p>
-
-      <h3 class="section__subtitle" data-i18n="why.uniqueTitle"></h3>
-      <ul class="trust">
-        <li data-i18n="why.u1"></li>
-        <li data-i18n="why.u2"></li>
-        <li data-i18n="why.u3"></li>
-        <li data-i18n="why.u4"></li>
-      </ul>
-
-      <div style="margin-top:16px">
-        <a href="#process" class="btn btn--ghost" data-i18n="why.cta"></a>
+      <h2 class="section__title" data-i18n="testi.title"></h2>
+      <div class="carousel" data-carousel>
+        <button class="carousel__btn prev" aria-label="Previous">‹</button>
+        <div class="carousel__track">
+          <blockquote class="testimonial">
+            <p data-i18n="testi.t1.text"></p>
+            <footer>— <span data-i18n="testi.t1.author"></span></footer>
+          </blockquote>
+          <blockquote class="testimonial">
+            <p data-i18n="testi.t2.text"></p>
+            <footer>— <span data-i18n="testi.t2.author"></span></footer>
+          </blockquote>
+          <blockquote class="testimonial">
+            <p data-i18n="testi.t3.text"></p>
+            <footer>— <span data-i18n="testi.t3.author"></span></footer>
+          </blockquote>
+        </div>
+        <button class="carousel__btn next" aria-label="Next">›</button>
       </div>
     </div>
   </section>
 
+  <!-- FAQ -->
   <section class="section" id="faq">
     <div class="container">
       <h2 class="section__title" data-i18n="faq.title"></h2>
@@ -285,18 +245,11 @@
           <summary data-i18n="faq.q3.title"></summary>
           <p data-i18n="faq.q3.text"></p>
         </details>
-        <details>
-          <summary data-i18n="faq.q4.title"></summary>
-          <p data-i18n="faq.q4.text"></p>
-        </details>
-        <details>
-          <summary data-i18n="faq.q5.title"></summary>
-          <p data-i18n="faq.q5.text"></p>
-        </details>
       </div>
     </div>
   </section>
 
+  
   <section class="section section--alt" id="contact">
     <div class="container contact__grid">
       <div>
@@ -304,7 +257,7 @@
         <p class="section__lead" data-i18n="contact.lead"></p>
 
         <ul class="contact__list">
-          <li>✉︎ <a href="mailto:info@retreatandalucia.com">info@retreatandalucia.com</a></li>
+          <li>✉︎ <a href="mailto:hello@retreatandalucia.com">hello@retreatandalucia.com</a></li>
           <li>☎︎ <a href="tel:+34600000000">+34 600 00 00 00</a></li>
           <li>📍 Andalucía, España</li>
         </ul>
@@ -356,18 +309,11 @@
         <li><a href="#about" data-i18n="nav.about"></a></li>
         <li><a href="#process" data-i18n="nav.process"></a></li>
         <li><a href="#destinations" data-i18n="nav.destinations"></a></li>
-        <li><a href="#why" data-i18n="nav.why"></a></li>
         <li><a href="#contact" data-i18n="nav.contact"></a></li>
       </ul>
       <div class="footer__legal">
         <a href="#" data-i18n="footer.privacy"></a>
         <a href="#" data-i18n="footer.terms"></a>
-        <div class="socials">
-          <a href="#" aria-label="Facebook" title="Facebook"></a>
-          <a href="#" aria-label="LinkedIn" title="LinkedIn"></a>
-          <a href="#" aria-label="Instagram" title="Instagram"></a>
-          <a href="#" aria-label="TikTok" title="TikTok"></a>
-        </div>
       </div>
     </div>
   </footer>
